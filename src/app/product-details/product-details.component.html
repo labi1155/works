@@ -1,0 +1,13 @@
+<div *ngIf="ProductDetails" >
+<mat-card  class="card">
+    <img mat-card-image src= "{{ProductDetails.image}}" class="cardimage">
+    <mat-card-header>
+      <mat-card-subtitle>{{ProductDetails.title}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <h3>{{ProductDetails.category}}</h3>
+      <h3> ₹{{ProductDetails.price}}</h3>
+      <a class="link" routerLink="/products">cancel</a>
+    </mat-card-content>
+</mat-card>
+</div>

@@ -1,0 +1,14 @@
+<div class="card">
+
+<mat-card class="cards" *ngFor="let prod of  Products"> 
+  <a [routerLink]="['/products',prod.id]" class="link" >
+      <img class="cardimage" mat-card-image src="{{prod.image}}"  ><br>
+      <mat-card-title class="title">"{{prod.title}}"</mat-card-title><br>
+      <mat-card-content>
+        ₹{{prod.price}}
+      </mat-card-content>
+      <button mat-raised-button >ADD to CART</button>
+      </a>
+      </mat-card>
+    </div>
+    <!-- <button mat-raised-button (click)="openBottomSheet()">Open file</button> -->

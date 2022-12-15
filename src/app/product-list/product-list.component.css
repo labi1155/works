@@ -1,0 +1,23 @@
+.card{
+  
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.cardimage{
+    height: 100px;
+    width:200px;
+}
+.cards{
+
+margin: 80px;
+width: 20rem;
+
+}
+.title{
+    color: red;
+    font-size: medium;
+}
+.link{
+    text-decoration: none;
+}

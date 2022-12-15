@@ -1,0 +1,13 @@
+
+.cardimage{
+    height: 100px;
+    width:200px;
+}
+.card{
+
+margin: 80px;
+width: 20rem;
+}
+.link{
+    text-decoration: none;
+}
